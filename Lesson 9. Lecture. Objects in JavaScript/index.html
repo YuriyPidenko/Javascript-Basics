@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9</title>
+</head>
+
+<body>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        //     const product = {
+        //         name: 'Стол',
+        //         price: 2000
+        //     }
+
+        //     let productSale = product;
+        //     productSale.price = 1500;
+        //     console.log(productSale);
+        //     console.log(product);
+        //     let productNew = product;
+        //     productNew.text = 'Lorem'
+        //     console.log(productSale);
+        //     console.log(product);
+
+
+        const product = {
+            name: 'Стол',
+            price: 2000,
+            count: 2,
+            userRegistred: true,
+            reg: function () {
+                product.userRegistred = true
+            },
+            buy: function () {
+                if (product.count > 0) {
+                    console.log('Вы можите купить даный товар');
+                } else {
+                    console.log('Даный товар нельзя добавить в корзину');
+                }
+
+            },
+            buyProduct: function () {
+                if (product.userRegistred) {
+                    console.log('Товар в корзине');
+                } else {
+                    console.log('Вым необходимо зарегестрироватся');
+                }
+            }
+        }
+        product.buyProduct();
+    </script>
+</body>
+
+</html>
