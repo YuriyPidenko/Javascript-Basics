@@ -1,13 +1,14 @@
 // Задание 1
-const temperatureCelsius = 45;
-let temperatureFahrenheit = 0;
-
-temperatureFahrenheit = (9 / 5) * temperatureCelsius + 32;
-
-console.log(`температура в Цельсиях ${temperatureCelsius}
-температура Фаренгейтах ${temperatureFahrenheit}`);
-
+// Необходимо создать переменную в которой будет храниться температура в градусах Цельсия, преобразовать значение в температуру по фаренгейту.
+// Формула перевода градусов Цельсия в градусы Фаренгейта: градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+// Вывести в консоль температуру в Цельсиях и Фаренгейтах.
+const degreesCelsius = 44;
+let degreesFahrenheit = 0;
+degreesFahrenheit = (9 / 5) * degreesCelsius + 32;
+console.log(`температуру в Цельсиях ${degreesCelsius}
+температуру в Фаренгейтах ${degreesFahrenheit} `);
 // Задание 2
-const userName = 'Юра';
-const admin = userName;
+// Необходимо создать переменную name, записать в эту переменную свое имя. Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. Вывести значение переменной admin в консоль.
+const name = 'Юра';
+const admin = name;
 console.log(admin);
