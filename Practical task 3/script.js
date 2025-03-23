@@ -26,16 +26,16 @@ function deductionTaxes(num) {
 
 // Задание 3
 // Пользователь с клавиатуры вводит 3 числа, необходимо создать функцию, которая определяет максимальное значение среди этих чисел
-let num1 = Number(prompt('введите первое число'));
-let num2 = Number(prompt('введите второе число'));
-let num3 = Number(prompt('введите третье число'));
+// let num1 = Number(prompt('введите первое число'));
+// let num2 = Number(prompt('введите второе число'));
+// let num3 = Number(prompt('введите третье число'));
 
-function maxNumber(num1, num2, num3) {
-    let result = Math.max(num1, num2, num3);
-    console.log(`максемальное число из трех веденых ${result}`);
-}
+// function maxNumber(num1, num2, num3) {
+//     let result = Math.max(num1, num2, num3);
+//     console.log(`максемальное число из трех веденых ${result}`);
+// }
 
-maxNumber(num1, num2, num3);
+// maxNumber(num1, num2, num3);
 
 // Задание 4
 // Необходимо реализовать четыре функции, каждая функция должна принимать по два числа и выполнять одну из операций (каждая функция выполняет одну из них):
