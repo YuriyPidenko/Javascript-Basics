@@ -111,13 +111,13 @@
 
 // console.log(sum);
 
-// let result = '-'
-// for (let i = 1; i <= 9; i++) {
-//     const element = i;
-//     result += String(i) + '-'
-//     console.log(result);
-// }
+let str = '';
+for (let i = 1; i <= 9; i++) {
+    str += '-' + i;
+}
+str += '-';
 
+console.log(str);
 
 // const arrNumbers = [2, 5, 9, 0, 3, 1, 4];
 // for (let i = 0; i <= arrNumbers.length - 1; i++) {
